@@ -1,6 +1,5 @@
 "use client";
-import HeroImage from "../../public/assets/burger.jpg";
-import HeroBgImage from "../../public/assets/eiliv-aceron-uBigm8w_MpA-unsplash.jpg";
+import HeroBgImage from "assets/eiliv-aceron-uBigm8w_MpA-unsplash.jpg";
 
 import Link from "next/link";
 import Image from "next/image";
