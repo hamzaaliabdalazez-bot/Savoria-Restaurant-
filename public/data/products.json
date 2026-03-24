@@ -1,0 +1,128 @@
+[
+  {
+    "id": "burger-1",
+    "name": "Classic Beef Burger",
+    "category": "Burgers",
+    "description": "Juicy beef patty, lettuce, tomato, cheese, and signature sauce.",
+    "price": 9.99,
+    "image": "/assets/burger.jpg",
+    "nutrition": {
+      "calories": 650,
+      "protein": 35,
+      "carbs": 45,
+      "fat": 35
+    }
+  },
+  {
+    "id": "burger-2",
+    "name": "Spicy Chicken Burger",
+    "category": "Burgers",
+    "description": "Crispy chicken, spicy mayo, pickles, and pepper jack cheese.",
+    "price": 10.99,
+    "image": "/assets/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg",
+    "nutrition": {
+      "calories": 620,
+      "protein": 32,
+      "carbs": 48,
+      "fat": 32
+    }
+  },
+  {
+    "id": "pizza-1",
+    "name": "Margherita Pizza",
+    "category": "Pizza",
+    "description": "Mozzarella, basil, tomato sauce, and olive oil on a hand-tossed crust.",
+    "price": 12.99,
+    "image": "/assets/pizza.jpg",
+    "nutrition": {
+      "calories": 850,
+      "protein": 28,
+      "carbs": 95,
+      "fat": 30
+    }
+  },
+  {
+    "id": "pizza-2",
+    "name": "Pepperoni Feast",
+    "category": "Pizza",
+    "description": "Loaded with pepperoni, mozzarella, and house herbs.",
+    "price": 14.5,
+    "image": "/assets/pizza.jpg",
+    "nutrition": {
+      "calories": 920,
+      "protein": 35,
+      "carbs": 88,
+      "fat": 42
+    }
+  },
+  {
+    "id": "pasta-1",
+    "name": "Creamy Alfredo Pasta",
+    "category": "Pasta",
+    "description": "Fettuccine with creamy Alfredo sauce and parmesan.",
+    "price": 11.49,
+    "image": "/assets/pasta.jpg",
+    "nutrition": {
+      "calories": 720,
+      "protein": 25,
+      "carbs": 75,
+      "fat": 28
+    }
+  },
+  {
+    "id": "pasta-2",
+    "name": "Pesto Penne",
+    "category": "Pasta",
+    "description": "Penne tossed in homemade basil pesto and pine nuts.",
+    "price": 10.5,
+    "image": "/assets/pasta.jpg",
+    "nutrition": {
+      "calories": 680,
+      "protein": 22,
+      "carbs": 78,
+      "fat": 24
+    }
+  },
+  {
+    "id": "drink-1",
+    "name": "Fresh Lemonade",
+    "category": "Drinks",
+    "description": "Refreshing citrus lemonade with mint.",
+    "price": 3.99,
+    "image": "/assets/orange-juice.jpg",
+    "nutrition": {
+      "calories": 120,
+      "protein": 0,
+      "carbs": 32,
+      "fat": 0
+    }
+  },
+  {
+    "id": "cake-1",
+    "name": "Checolate Cake",
+    "category": "dessert",
+    "description": "Dark Checolate Cake.",
+    "price": 20.5,
+    "image": "/assets/cake.jpg",
+    "nutrition": {
+      "calories": 90,
+      "protein": 0,
+      "carbs": 24,
+      "fat": 0
+    }
+  },
+  {
+    "id": "shawerma",
+    "name": "Shawerma",
+    "category": "Other meals",
+    "description": "Shawerma with chicken.",
+    "price": 6.99,
+    "image": "/assets/shawerma.jpg",
+    "nutrition": {
+      "calories": 450,
+      "protein": 12,
+      "carbs": 55,
+      "fat": 22
+    }
+  }
+]
