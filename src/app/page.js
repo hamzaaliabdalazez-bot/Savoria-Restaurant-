@@ -1,5 +1,5 @@
 "use client";
-import HeroBgImage from "assets/eiliv-aceron-uBigm8w_MpA-unsplash.jpg";
+// import HeroBgImage from ;
 
 import Link from "next/link";
 import Image from "next/image";
@@ -50,7 +50,7 @@ export default function HomePage() {
       <section className="relative h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src={HeroBgImage.src}
+            src="/assets/eiliv-aceron-uBigm8w_MpA-unsplash.jpg"
             alt="Savoria Hero Background"
             fill
             className="object-cover"
