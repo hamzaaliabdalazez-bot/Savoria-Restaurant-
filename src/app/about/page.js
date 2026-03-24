@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import ChefOnWork from "../../../public/assets/johnathan-macedo-4NQEvxW2_4w-unsplash.jpg";
+import ChefOnWork from "/assets/johnathan-macedo-4NQEvxW2_4w-unsplash.jpg";
 
 export default function AboutPage() {
   return (
