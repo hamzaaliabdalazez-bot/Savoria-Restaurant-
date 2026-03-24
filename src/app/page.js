@@ -70,7 +70,7 @@ export default function HomePage() {
           >
             <motion.div variants={itemVariants} className="mb-2">
               <span className="text-orange-400 text-lg font-medium tracking-wider uppercase">
-                Welcome to Savoria
+                Welcome to
               </span>
             </motion.div>
 
