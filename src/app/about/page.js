@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-// import ChefOnWork from "/assets/johnathan-macedo-4NQEvxW2_4w-unsplash.jpg";
+import Image from "next/image";
+import ChefOnWork from "@/assets/johnathan-macedo-4NQEvxW2_4w-unsplash.jpg";
 
 export default function AboutPage() {
   return (
@@ -107,8 +108,8 @@ export default function AboutPage() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <img
-                src="/assets/johnathan-macedo-4NQEvxW2_4w-unsplash.jpg"
+              <Image
+                src={ChefOnWork}
                 alt="Chef at work"
                 className="rounded-lg shadow-2xl w-full"
               />
