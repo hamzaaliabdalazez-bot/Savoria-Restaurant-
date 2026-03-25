@@ -5,7 +5,7 @@
     "category": "Burgers",
     "description": "Juicy beef patty, lettuce, tomato, cheese, and signature sauce.",
     "price": 9.99,
-    "image": "/assets/burger.jpg",
+    "image": "/assets/burger.webp",
     "nutrition": {
       "calories": 650,
       "protein": 35,
@@ -19,7 +19,7 @@
     "category": "Burgers",
     "description": "Crispy chicken, spicy mayo, pickles, and pepper jack cheese.",
     "price": 10.99,
-    "image": "/assets/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg",
+    "image": "/assets/amirali-mirhashemian-sc5sTPMrVfk-unsplash.webp",
     "nutrition": {
       "calories": 620,
       "protein": 32,
@@ -33,7 +33,7 @@
     "category": "Pizza",
     "description": "Mozzarella, basil, tomato sauce, and olive oil on a hand-tossed crust.",
     "price": 12.99,
-    "image": "/assets/pizza.jpg",
+    "image": "/assets/pizza.webp",
     "nutrition": {
       "calories": 850,
       "protein": 28,
@@ -47,7 +47,7 @@
     "category": "Pizza",
     "description": "Loaded with pepperoni, mozzarella, and house herbs.",
     "price": 14.5,
-    "image": "/assets/pizza.jpg",
+    "image": "/assets/pizza.webp",
     "nutrition": {
       "calories": 920,
       "protein": 35,
@@ -61,7 +61,7 @@
     "category": "Pasta",
     "description": "Fettuccine with creamy Alfredo sauce and parmesan.",
     "price": 11.49,
-    "image": "/assets/pasta.jpg",
+    "image": "/assets/pasta.webp",
     "nutrition": {
       "calories": 720,
       "protein": 25,
@@ -75,7 +75,7 @@
     "category": "Pasta",
     "description": "Penne tossed in homemade basil pesto and pine nuts.",
     "price": 10.5,
-    "image": "/assets/pasta.jpg",
+    "image": "/assets/pasta.webp",
     "nutrition": {
       "calories": 680,
       "protein": 22,
@@ -89,7 +89,7 @@
     "category": "Drinks",
     "description": "Refreshing citrus lemonade with mint.",
     "price": 3.99,
-    "image": "/assets/orange-juice.jpg",
+    "image": "/assets/orange-juice.webp",
     "nutrition": {
       "calories": 120,
       "protein": 0,
@@ -103,7 +103,7 @@
     "category": "dessert",
     "description": "Dark Checolate Cake.",
     "price": 20.5,
-    "image": "/assets/cake.jpg",
+    "image": "/assets/cake.webp",
     "nutrition": {
       "calories": 90,
       "protein": 0,
@@ -117,7 +117,7 @@
     "category": "Other meals",
     "description": "Shawerma with chicken.",
     "price": 6.99,
-    "image": "/assets/shawerma.jpg",
+    "image": "/assets/shawerma.webp",
     "nutrition": {
       "calories": 450,
       "protein": 12,

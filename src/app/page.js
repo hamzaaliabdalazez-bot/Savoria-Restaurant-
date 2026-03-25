@@ -50,7 +50,7 @@ export default function HomePage() {
       <section className="relative h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/assets/eiliv-aceron-uBigm8w_MpA-unsplash.jpg"
+            src="/assets/eiliv-aceron-uBigm8w_MpA-unsplash.webp"
             alt="Savoria Hero Background"
             fill
             className="object-cover"
