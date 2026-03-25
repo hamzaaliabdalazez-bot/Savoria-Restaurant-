@@ -109,7 +109,7 @@ export default function AboutPage() {
               transition={{ duration: 0.6 }}
             >
               <Image
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80"
+                src="/assets/chefwork.webp"
                 alt="Chef at work"
                 className="rounded-lg shadow-2xl w-full"
               />
