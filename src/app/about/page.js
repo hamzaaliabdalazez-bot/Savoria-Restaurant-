@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import ChefOnWork from "@/assets/chefwork.webp";
+// import ChefOnWork from "@/assets/chefwork.webp";
 
 export default function AboutPage() {
   return (
@@ -109,7 +109,7 @@ export default function AboutPage() {
               transition={{ duration: 0.6 }}
             >
               <Image
-                src={ChefOnWork}
+                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80"
                 alt="Chef at work"
                 className="rounded-lg shadow-2xl w-full"
               />
