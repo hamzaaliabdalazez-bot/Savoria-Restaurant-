@@ -7,6 +7,8 @@ import { useCart } from "../../context/CartContext";
 import FoodCard from "../../components/FoodCard";
 import CategoryTabs from "../../components/CategoryTabs";
 import SkeletonLoader from "../../components/SkeletonLoader";
+import Snackbar from "@mui/material/Snackbar";
+import Alert from "@mui/material/Alert";
 
 /**
  * Menu page with Bento grid layout, category filtering, and skeleton loading.
@@ -14,13 +16,14 @@ import SkeletonLoader from "../../components/SkeletonLoader";
  */
 export default function MenuPage() {
   const { products, categories, loading, error } = useRestaurantData();
-  const { addToCart } = useCart();
+  const { addToCart, state, handleClose, cartItem } = useCart();
   const { activeCategory, setActiveCategory } = useAppContext();
 
   const visibleProducts = products.filter((product) => {
     if (activeCategory === "All") return true;
     return product.category === activeCategory;
   });
+
 
   if (error) {
     return (
@@ -119,6 +122,26 @@ export default function MenuPage() {
           </motion.div>
         )}
       </div>
+      <Snackbar
+        open={state.open}
+        onClose={handleClose}
+        slots={{ transition: state.Transition }}
+        key={state.Transition.name}
+        autoHideDuration={1200}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
+        severity="success"
+        variant="filled"
+        sx={{ width: "100%" }}
+      >
+        <Alert
+          onClose={handleClose}
+          severity="success"
+          variant="filled"
+         
+        >
+          {`item add to cart ${cartItem}`}
+        </Alert>
+      </Snackbar>
     </div>
   );
 }

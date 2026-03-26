@@ -1,12 +1,32 @@
 "use client";
 
-import { createContext, useContext, useMemo, useState } from "react";
+import React, { createContext, useContext, useMemo, useState } from "react";
 
 const CartContext = createContext(null);
 
 export function CartProvider({ children }) {
   const [cartItems, setCartItems] = useState([]);
+  const [state, setState] = React.useState({
+    open: false,
+    Transition: "",
+  });
 
+  const [cartItem, setcartItem] = useState("")
+
+  const handleClick = (Transition) => () => {
+    setState({
+      open: true,
+      Transition,
+    });
+    console.log("handleClick called with Transition:", Transition);
+  };
+
+const handleClose = () => {
+    setState({
+      ...state,
+      open: false,
+    });
+  };
   const addToCart = (product, quantity = 1) => {
     setCartItems((prevItems) => {
       const existing = prevItems.find((item) => item.id === product.id);
@@ -57,6 +77,12 @@ export function CartProvider({ children }) {
     clearCart,
     totalAmount,
     totalItems,
+    state,
+    setState,
+    handleClick,
+    handleClose,
+    cartItem,
+    setcartItem
   };
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;

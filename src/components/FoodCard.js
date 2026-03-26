@@ -1,14 +1,22 @@
 "use client";
-
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Slide from "@mui/material/Slide";
+
 import { motion } from "framer-motion";
+import { useCart } from "../context/CartContext"; 
 
 /**
  * FoodCard component with glassmorphism effects and optimized images.
  * Displays product information with hover animations and add to cart functionality.
  */
 export default function FoodCard({ product, onAdd }) {
+  const { handleClick, setcartItem } = useCart();
+  function SlideTransition(props) {
+    return <Slide {...props} direction="up" />;
+  }
+
   return (
     <motion.div
       layout
@@ -41,7 +49,11 @@ export default function FoodCard({ product, onAdd }) {
             ${product.price.toFixed(2)}
           </span>
           <button
-            onClick={() => onAdd(product)}
+            onClick={() => {
+              handleClick(SlideTransition)();
+              onAdd(product);
+              setcartItem(product.name);
+            }}
             className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-md font-medium transition-all duration-200 transform hover:scale-105"
           >
             Add to Cart

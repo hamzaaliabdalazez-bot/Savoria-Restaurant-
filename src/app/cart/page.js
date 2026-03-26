@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useCart } from "../../context/CartContext";
+import DeleteIcon from '@mui/icons-material/Delete';
 import { motion } from "framer-motion";
 
 export default function CartPage() {
@@ -60,9 +61,9 @@ export default function CartPage() {
                       </button>
                       <button
                         onClick={() => removeFromCart(item.id)}
-                        className="rounded bg-red-600 px-4 py-1 text-sm font-medium text-white hover:bg-red-700"
+                        className="rounded bg-red-600 px-2 py-1 text-sm font-medium text-white hover:bg-red-700"
                       >
-                        Remove
+                        <DeleteIcon />
                       </button>
                     </div>
                   </div>
